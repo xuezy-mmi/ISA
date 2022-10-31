@@ -1,0 +1,8 @@
+lb r1 0(r0)
+lb r2 1(r0)
+add r3 r2 r1
+sb r3 3(r0)
+lw r4 0(r0)
+sw r4 4(r0)
+beq r5 r6 8
+jal r5 4
